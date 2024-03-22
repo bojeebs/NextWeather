@@ -5,16 +5,16 @@ import {Card,CardContent,CardDescription,CardFooter,CardHeader,CardTitle,} from 
 const Maincard = () => {
   return (
     <div>
-      <Card>
+      <Card className='main-card w-72 bg-custom-dark border-gray-800 transform translate-x-16 translate-y-16 '>
         <CardHeader>
-          <CardTitle>Card Title</CardTitle>
-          <CardDescription>Card Description</CardDescription>
+          <CardTitle className='card-title text-white'>Day and Time</CardTitle>
+          <CardDescription className='location  text-white'>Location</CardDescription>
         </CardHeader>
-        <CardContent>
-          <p>Card Content</p>
+        <CardContent className='temp  text-white'>
+          <p>Temperature</p>
         </CardContent>
-        <CardFooter>
-          <p>Card Footer</p>
+        <CardFooter className='current  text-white'>
+          <p>Current Weather and High/Low</p>
         </CardFooter>
       </Card>
     </div>

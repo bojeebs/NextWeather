@@ -5,7 +5,7 @@ import {Card,CardContent,CardDescription,CardFooter,CardHeader,CardTitle,} from 
 const Maincard = () => {
   return (
     <div>
-      <Card className='main-card w-72 bg-custom-dark border-gray-800 transform translate-x-16 translate-y-16 '>
+      <Card className='main-card w-72 bg-custom-dark border-custom transform translate-x-16 translate-y-16 '>
         <CardHeader>
           <CardTitle className='card-title text-white'>Day and Time</CardTitle>
           <CardDescription className='location  text-white'>Location</CardDescription>

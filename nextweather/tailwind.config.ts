@@ -13,7 +13,8 @@ const config = {
   theme: {
     extend: {
       colors: {
-        "custom-dark": "#020202",
+        "custom-dark": "#0A0A0A",
+        "custom-border": "#262626",
         fontFamily: {
           sans: ["var(--font-sans)", ...fontFamily.sans],
         },

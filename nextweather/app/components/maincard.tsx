@@ -18,7 +18,7 @@ const Maincard = () => {
         </CardFooter>
       </Card>
     </div>
-  );
+  )
 }
 
 export default Maincard
